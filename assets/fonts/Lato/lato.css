@@ -1,0 +1,5 @@
+/*configura novas fonts externas e locais que fujam de fonts padrões */
+@font-face {
+    font-family: 'Lato';
+    src: url(./Lato-Regular.ttf) format(woff2)/*formato para reconhecer as fonts*/;
+}

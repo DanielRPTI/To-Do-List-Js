@@ -1,5 +1,8 @@
 const localStorageName = 'to-do-list'
 
+function changePage(){
+    troca = "href = TasksDone.html"
+}
 
 function validIfExistsNewTask(){
     let values = JSON.parse(localStorage.getItem(localStorageName) || "[]")
@@ -61,3 +64,4 @@ function removeItem(data){
 }
 
 showValues()
+
